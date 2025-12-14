@@ -132,7 +132,7 @@ public class NumberListImpl implements NumberList {
      * Returns a new list representing the same number in the additional base.
      * Does not modify the original list.
      *
-     * @return number in the additional base
+     * @return number in the additional base.
      */
     public NumberListImpl changeScale() {
         return new NumberListImpl(this.decimalValue, ADDITIONAL_BASE);
